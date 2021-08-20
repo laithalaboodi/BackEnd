@@ -29,7 +29,7 @@ import lombok.ToString;
 public class Watch {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	public int watchid;
+	public Integer watchid;
 	@Column(name="price", nullable=false)
 	public int price;
 	@Column(name="discription", nullable = false)
